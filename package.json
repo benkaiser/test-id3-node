@@ -1,0 +1,9 @@
+{
+  "name": "test-id3-speed",
+  "author": "Benjamin Kaiser <benjaminjkaiser@gmail.com>",
+  "description": "A benchmark tool for comparing node id3 tag libraries",
+  "dependencies" : {
+    "musicmetadata":  "*",
+    "taglib":  "*"
+  }
+}
