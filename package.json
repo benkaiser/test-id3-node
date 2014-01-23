@@ -2,8 +2,16 @@
   "name": "test-id3-speed",
   "author": "Benjamin Kaiser <benjaminjkaiser@gmail.com>",
   "description": "A benchmark tool for comparing node id3 tag libraries",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benkaiser/test-id3-node.git"
+  },
   "dependencies" : {
     "musicmetadata":  "*",
-    "taglib":  "*"
+    "taglib":  "*",
+    "id3_reader": "*",
+    "id3js": "*",
+    "benchmark": "*",
+    "microtime": "*"
   }
 }
