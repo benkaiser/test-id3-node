@@ -43,11 +43,19 @@ suite.add('taglib', {
     });
   }
 })
+.add('id3_reader', {
+  defer: true,
+  fn: function(deferred) {
+    id3_reader.read(track, function(success, msg, data) {
+      deferred.resolve();
+    });
+  }
+})
 .on('cycle', function(event) {
   console.log(String(event.target));
 })
 .on('complete', function() {
   console.log('Fastest is ' + this.filter('fastest').pluck('name'));
-})
+});
 
 suite.run({'async': false});

@@ -29,3 +29,8 @@ id3({ file: track, type: id3.OPEN_LOCAL}, function(err, tags) {
   console.log('id3js');
   console.log(tags);
 });
+
+id3_reader.read(track, function(success, msg, data) {
+  data.tags.attached_picture = null;
+  console.log(data);
+});

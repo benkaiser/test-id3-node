@@ -9,9 +9,9 @@
   "dependencies" : {
     "musicmetadata":  "*",
     "taglib":  "*",
-    "id3_reader": "*",
     "id3js": "*",
     "benchmark": "*",
-    "microtime": "*"
+    "microtime": "*",
+    "id3_reader": "interbred-monkey/id3_reader"
   }
 }
