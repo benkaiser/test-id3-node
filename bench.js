@@ -46,7 +46,7 @@ suite.add('taglib', {
 .add('id3_reader', {
   defer: true,
   fn: function(deferred) {
-    id3_reader.read(track, function(success, msg, data) {
+    id3_reader.read(track, function(err, data) {
       deferred.resolve();
     });
   }

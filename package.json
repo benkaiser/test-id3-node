@@ -12,6 +12,6 @@
     "id3js": "*",
     "benchmark": "*",
     "microtime": "*",
-    "id3_reader": "interbred-monkey/id3_reader"
+    "id3_reader": "benkaiser/id3_reader"
   }
 }
