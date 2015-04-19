@@ -1,5 +1,7 @@
 ## Test Node.js id3 library speeds
 
+Results can be found here: [http://blog.kaiserapps.com/2014/01/nodejs-id3-tag-libraries-which-is-best.html](http://blog.kaiserapps.com/2014/01/nodejs-id3-tag-libraries-which-is-best.html)
+
 The current libraries I am testing are:
 
 [musicmetadata](https://github.com/leetreveil/musicmetadata) - leetreveil's fork (currently active)
